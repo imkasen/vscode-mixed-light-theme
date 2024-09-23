@@ -1,0 +1,28 @@
+{
+  "name": "vscode-one-light-theme",
+  "displayName": "One Light",
+  "description": "One Light theme for Visual Studio Code.",
+  "publisher": "imkasen",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imkasen/vscode-one-light-theme"
+  },
+  "homepage": "https://github.com/imkasen/vscode-one-light-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Light",
+        "uiTheme": "vs",
+        "path": "./themes/one-light-color-theme.json"
+      }
+    ]
+  }
+}
