@@ -1,0 +1,44 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York",
+    "isMarried": true,
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "zip": "12345"
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "555-123-4567"
+        },
+        {
+            "type": "work",
+            "number": "555-987-6543"
+        }
+    ],
+    "hobbies": [
+        "reading",
+        "hiking",
+        "coding"
+    ],
+    "languages": {
+        "english": "native",
+        "spanish": "intermediate"
+    },
+    "education": [
+        {
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "university": "Example University"
+        }
+    ],
+    "workExperience": [
+        {
+            "title": "Software Engineer",
+            "company": "Example Company",
+            "years": "2018-Present"
+        }
+    ]
+}
