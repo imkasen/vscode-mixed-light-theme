@@ -21,7 +21,7 @@
       {
         "label": "One Light",
         "uiTheme": "vs",
-        "path": "./themes/one-light-color-theme.json"
+        "path": "./themes/one-light.json"
       }
     ]
   }

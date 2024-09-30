@@ -1,0 +1,156 @@
+{
+    "name": "One Light",
+    "type": "light",
+    "semanticHighlighting": true,
+    "semanticTokenColors": {},
+    "tokenColors": [],
+    "colors": {
+        // ref: https://code.visualstudio.com/api/references/theme-color
+        // ======== Base Colors ========
+        "focusBorder": "#526FFF",
+        "foreground": "#383A42",
+        // ======== Window Border ========
+        // ======== Text Colors ========
+        // ======== Action Colors ========
+        // ======== Button Control ========
+        "button.background": "#5871EF",
+        "button.foreground": "#FFFFFF",
+        "button.hoverBackground": "#6B83ED",
+        // ======== Dropdown Control ========
+        "dropdown.background": "#FFFFFF",
+        "dropdown.border": "#DBDBDC",
+        // ======== Input Control ========
+        "input.background": "#FFFFFF",
+        "input.border": "#DBDBDC",
+        "input.foreground": "#abb2bf",
+        // ======== Scrollbar Control ========
+        "scrollbarSlider.activeBackground": "#747D9180",
+        "scrollbarSlider.background": "#4E566680",
+        "scrollbarSlider.hoverBackground": "#5A637580",
+        // ======== Badge ========
+        "badge.background": "#526FFF",
+        "badge.foreground": "#FFFFFF",
+        // ======== Progress Bar ========
+        // ======== Lists and Trees ========
+        "list.activeSelectionBackground": "#DBDBDC",
+        "list.activeSelectionForeground": "#232324",
+        "list.focusBackground": "#DBDBDC",
+        "list.highlightForeground": "#121417",
+        "list.hoverBackground": "#DBDBDC66",
+        "list.inactiveSelectionBackground": "#DBDBDC",
+        "list.inactiveSelectionForeground": "#232324",
+        // ======== Activity Bar ========
+        "activityBar.background": "#FAFAFA",
+        "activityBar.foreground": "#121417",
+        "activityBarBadge.background": "#526FFF",
+        "activityBarBadge.foreground": "#FFFFFF",
+        // ======== Profiles ========
+        // ======== Side Bar ========
+        "sideBar.background": "#EAEAEB",
+        "sideBarSectionHeader.background": "#FAFAFA",
+        // ======== MiniMap ========
+        // ======== Editor Groups & Tabs ========
+        "editorGroup.border": "#DBDBDC",
+        "editorGroupHeader.tabsBackground": "#EAEAEB",
+        "tab.activeBackground": "#FAFAFA",
+        "tab.activeForeground": "#121417",
+        "tab.border": "#DBDBDC",
+        "tab.inactiveBackground": "#EAEAEB",
+        // ======== Editor Colors ========
+        "editor.background": "#FAFAFA",
+        "editor.findMatchHighlightBackground": "#526FFF33",
+        "editor.foreground": "#383A42",
+        "editor.lineHighlightBackground": "#383A420C",
+        "editor.selectionBackground": "#E5E5E6",
+        "editorCursor.foreground": "#526FFF",
+        "editorHoverWidget.border": "#DBDBDC",
+        "editorHoverWidget.background": "#EAEAEB",
+        "editorIndentGuide.activeBackground1": "#626772",
+        "editorIndentGuide.background1": "#383A4233",
+        "editorInlayHint.background": "#F5F5F5",
+        "editorInlayHint.foreground": "#AFB2BB",
+        "editorLineNumber.foreground": "#9D9D9F",
+        "editorLineNumber.activeForeground": "#383A42",
+        "editorRuler.foreground": "#383A4233",
+        "editorWhitespace.foreground": "#383A4233",
+        // ======== Diff Editor Colors ========
+        "diffEditor.insertedTextBackground": "#00809B33",
+        // ======== Chat Colors ========
+        // ======== Inline Chat Colors ========
+        // ======== Pannel Chat Colors ========
+        // ======== Editor Widget Colors ========
+        "editorWidget.background": "#EAEAEB",
+        "editorWidget.border": "#E5E5E6",
+        "editorSuggestWidget.background": "#EAEAEB",
+        "editorSuggestWidget.border": "#DBDBDC",
+        "editorSuggestWidget.selectedBackground": "#FFFFFF",
+        // ======== Peek View Colors ========
+        "peekView.border": "#526FFF",
+        "peekViewEditor.background": "#FFFFFF",
+        "peekViewResult.background": "#EAEAEB",
+        "peekViewResult.selectionBackground": "#DBDBDC",
+        "peekViewTitle.background": "#FFFFFF",
+        // ======== Merge Conflicts Colors ========
+        // ======== Panel Colors ========
+        // ======== Status Bar Colors ========
+        "statusBar.background": "#EAEAEB",
+        "statusBar.debuggingForeground": "#FFFFFF",
+        "statusBar.foreground": "#424243",
+        "statusBar.noFolderBackground": "#EAEAEB",
+        "statusBarItem.hoverBackground": "#DBDBDC",
+        // ======== Title Bar Colors ========
+        "titleBar.activeBackground": "#EAEAEB",
+        "titleBar.activeForeground": "#424243",
+        "titleBar.inactiveBackground": "#EAEAEB",
+        "titleBar.inactiveForeground": "#424243",
+        // ======== Menu Bar Colors ========
+        // ======== Command Center Colors ========
+        // ======== Notification Colors ========
+        // ======== Banner Colors ========
+        // ======== Extensions Colors ========
+        "extensionButton.prominentBackground": "#3BBA54",
+        "extensionButton.prominentHoverBackground": "#4CC263",
+        // ======== Quick Picker Colors ========
+        "pickerGroup.border": "#526FFF",
+        // ======== Keybinding Label Colors ========
+        // ======== Keyboard Shortcut Table Colors ========
+        // ======== Integrated Terminal Colors ========
+        // "terminal.ansiBlack": "#3f4451",
+        // "terminal.ansiBlue": "#4aa5f0",
+        // "terminal.ansiBrightBlack": "#4f5666",
+        // "terminal.ansiBrightBlue": "#4dc4ff",
+        // "terminal.ansiBrightCyan": "#4cd1e0",
+        // "terminal.ansiBrightGreen": "#a5e075",
+        // "terminal.ansiBrightMagenta": "#de73ff",
+        // "terminal.ansiBrightRed": "#ff616e",
+        // "terminal.ansiBrightWhite": "#e6e6e6",
+        // "terminal.ansiBrightYellow": "#f0a45d",
+        // "terminal.ansiCyan": "#42b3c2",
+        // "terminal.ansiGreen": "#8cc265",
+        // "terminal.ansiMagenta": "#c162de",
+        // "terminal.ansiRed": "#e05561",
+        // "terminal.ansiWhite": "#d7dae0",
+        // "terminal.ansiYellow": "#d18f52",
+        // "terminal.background": "#23272e",
+        // "terminal.border": "#3e4452",
+        // "terminal.foreground": "#abb2bf",
+        // "terminal.selectionBackground": "#abb2bf30",
+        // ======== Debug Colors ========
+        // ======== Testing Colors ========
+        // ======== Welcome Page Colors ========
+        // ======== Git Colors ========
+        // ======== Source Control Graph Colors ========
+        // ======== Settings Editor Colors ========
+        // ======== Breadcrumbs Colors ========
+        // ======== Snippets Colors ========
+        // ======== Symbol Icons Colors ========
+        // ======== Debug Icons Colors ========
+        // ======== Notebook Colors ========
+        "notebook.cellEditorBackground": "#F5F5F5"
+        // ======== Chart Colors ========
+        // ======== Ports Colors ========
+        // ======== Comments View Colors ========
+        // ======== Action Bar Colors ========
+        // ======== Simple Find Widgets ========
+    }
+}
