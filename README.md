@@ -1,16 +1,8 @@
-# vscode-one-light-theme README
+# VSCode Mixed Light Theme
 
-## Working with Markdown
+A mixed Light theme for Visual Studio Code.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Thanks
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- [Solarized](https://github.com/altercation/solarized)
+- [Better Solarized](https://github.com/edheltzel/vscode-better-solarized)
