@@ -2,7 +2,11 @@
     "name": "Mixed Solarized Light",
     "type": "light",
     "semanticHighlighting": true,
-    "sementicTokenColors": {},
+    "semanticTokenColors": {
+        "enumMember": {
+            "foreground": "#00978A"
+        }
+    },
     "tokenColors": [
         {
             "name": "Comments",
@@ -44,6 +48,16 @@
             }
         },
         {
+            "name": "Keyword Other Unit",
+            "scope": [
+                "keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#009C8F",
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "Operator, Misc",
             "scope": [
                 "keyword.operator",
@@ -77,8 +91,7 @@
         {
             "name": "Variable",
             "scope": [
-                "variable",
-                "string constant.other.placeholder"
+                "variable"
             ],
             "settings": {
                 // "foreground": "#657B83"
@@ -120,8 +133,7 @@
                 "constant.numeric",
                 "constant.language",
                 "support.constant",
-                "constant.character",
-                "keyword.other.unit"
+                "constant.character"
             ],
             "settings": {
                 "foreground": "#CB4B16"
@@ -167,12 +179,22 @@
                 "constant.other.key",
                 "entity.other.inherited-class",
                 "markup.heading",
+                "markup.inline.raw.string.markdown",
                 "markup.inserted.git_gutter",
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
                 "fontStyle": "normal",
                 "foreground": "#859900"
+            }
+        },
+        {
+            "name": "String Constant Other Placeholder",
+            "scope": [
+                "string constant.other.placeholder"
+            ],
+            "settings": {
+                "foreground": "#CB4B16"
             }
         },
         {
@@ -192,8 +214,11 @@
             }
         },
         {
-            "name": "Namespaces",
-            "scope": "entity.name.namespace",
+            "name": "Namespaces, Type",
+            "scope": [
+                "entity.name.namespace",
+                "entity.name.type"
+            ],
             "settings": {
                 "foreground": "#B58900"
             }
@@ -213,7 +238,7 @@
             "name": "Language methods",
             "scope": "variable.language",
             "settings": {
-                "fontStyle": "italic",
+                // "fontStyle": "italic",
                 "foreground": "#DC322F"
             }
         },
@@ -273,7 +298,9 @@
             "name": "Escape Characters",
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#CB4B16"
+                // "foreground": "#CB4B16"
+                "foreground": "#BC5819",
+                "fontStyle": "bold"
             }
         },
         {
@@ -310,6 +337,13 @@
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#268BD2"
+            }
+        },
+        {
+            "name": "Javascript JSDoc Symbol",
+            "scope": "entity.name.type.instance.jsdoc",
+            "settings": {
+                "foreground": "#B58900"
             }
         },
         {
@@ -417,7 +451,8 @@
                 "punctuation.definition.list_item.markdown"
             ],
             "settings": {
-                "foreground": "#657B83"
+                // "foreground": "#657B83"
+                "foreground": "#53676D"
             }
         },
         {
@@ -458,6 +493,7 @@
                 "markup.italic string"
             ],
             "settings": {
+                "foreground": "#8762C6",
                 "fontStyle": "italic"
             }
         },
@@ -468,6 +504,7 @@
                 "markup.bold string"
             ],
             "settings": {
+                "foreground": "#B58900",
                 "fontStyle": "bold"
             }
         },
@@ -617,8 +654,8 @@
                 "text.html.markdown markup.checkbox.markdown"
             ],
             "settings": {
-                "fontStyle": "",
-                "foreground": "#00000050"
+                // "foreground": "#00000050"
+                "foreground": "#2AA198"
             }
         },
         {
@@ -1078,13 +1115,6 @@
             "settings": {
                 "fontStyle": "italic"
             }
-        },
-        {
-            "name": "Javascript JSDoc Symbol",
-            "scope": "entity.name.type.instance.jsdoc",
-            "settings": {
-                "foreground": "#B58900"
-            }
         }
     ],
     "colors": {
@@ -1146,9 +1176,9 @@
         "editor.lineHighlightBackground": "#EEE8D5",
         "editorWhitespace.foreground": "#586E7580",
         // "editorIndentGuide.background1": "#00000080",
-        "editorIndentGuide.background": "#00000080",
+        "editorIndentGuide.background": "#D5CDB6",
         // "editorIndentGuide.activeBackground1": "#00212B",
-        "editorIndentGuide.activeBackground": "#00212B",
+        "editorIndentGuide.activeBackground": "#909995",
         "editorBracketMatch.border": "#657B83A0",
         "editorBracketHighlight.foreground1": "#644EA0",
         "editorBracketHighlight.foreground2": "#2AA198",
@@ -1239,8 +1269,8 @@
         // ======== Symbol Icons Colors ========
         // ======== Debug Icons Colors ========
         // ======== Notebook Colors ========
-        "notebook.editorBackground": "#EAE0C0",
-        "notebook.cellEditorBackground": "#FDF6E3",
+        "notebook.editorBackground": "#ECE3CC",
+        "notebook.cellEditorBackground": "#FBF3DB",
         // ======== Chart Colors ========
         // ======== Ports Colors ========
         "ports.iconRunningProcessForeground": "#2AA19899"
