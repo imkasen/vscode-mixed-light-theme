@@ -2,7 +2,11 @@
     "name": "One Light",
     "type": "light",
     "semanticHighlighting": true,
-    "semanticTokenColors": {},
+    "semanticTokenColors": {
+        "enumMember": {
+            "foreground": "#00978A"
+        }
+    },
     "tokenColors": [
         {
             "name": "Comment",
@@ -83,7 +87,9 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#986801"
+                // "foreground": "#986801"
+                "foreground": "#C18401",
+                "fontStyle": "italic"
             }
         },
         {
@@ -139,7 +145,8 @@
                 "constant.character.escape"
             ],
             "settings": {
-                "foreground": "#0184BC"
+                "foreground": "#0184BC",
+                "fontStyle": "bold"
             }
         },
         {
@@ -316,6 +323,17 @@
             }
         },
         {
+            "name": "Python Function Decorator @",
+            "scope": [
+                "meta.function.decorator.python",
+                "punctuation.definition.decorator.python",
+                "entity.name.function.decorator.python"
+            ],
+            "settings": {
+                "foreground": "#0184BC"
+            }
+        },
+        {
             "name": "Support Class",
             "scope": [
                 "support.class"
@@ -339,7 +357,8 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#0184BC"
+                "foreground": "#0184BC",
+                "fontStyle": "bold"
             }
         },
         {
@@ -357,7 +376,8 @@
                 "entity.name.function"
             ],
             "settings": {
-                "foreground": "#4078F2"
+                "foreground": "#4078F2",
+                "fontStyle": "bold"
             }
         },
         {
@@ -494,7 +514,7 @@
                 "underline"
             ],
             "settings": {
-                "text-decoration": "underline"
+                "fontStyle": "underline"
             }
         },
         {
@@ -513,7 +533,6 @@
             ],
             "settings": {
                 "foreground": "#000000",
-                "background": "#F2A60D"
             }
         },
         {
@@ -522,8 +541,7 @@
                 "invalid.illegal"
             ],
             "settings": {
-                "foreground": "white",
-                "background": "#FF1414"
+                "foreground": "#FFFFFF",
             }
         },
         {
@@ -772,15 +790,6 @@
             ],
             "settings": {
                 "foreground": "#696C77"
-            }
-        },
-        {
-            "name": "Source Gfm Markup",
-            "scope": [
-                "source.gfm markup"
-            ],
-            "settings": {
-                "-webkit-font-smoothing": "auto"
             }
         },
         {
@@ -1038,15 +1047,6 @@
             ],
             "settings": {
                 "foreground": "#383A42"
-            }
-        },
-        {
-            "name": "Source Ruby Constant Other Symbol > Punctuation",
-            "scope": [
-                "source.ruby constant.other.symbol > punctuation"
-            ],
-            "settings": {
-                "foreground": "inherit"
             }
         },
         {
@@ -2063,26 +2063,26 @@
         // ======== Keybinding Label Colors ========
         // ======== Keyboard Shortcut Table Colors ========
         // ======== Integrated Terminal Colors ========
-        // "terminal.ansiBlack": "#3f4451",
-        // "terminal.ansiBlue": "#4aa5f0",
-        // "terminal.ansiBrightBlack": "#4f5666",
-        // "terminal.ansiBrightBlue": "#4dc4ff",
-        // "terminal.ansiBrightCyan": "#4cd1e0",
-        // "terminal.ansiBrightGreen": "#a5e075",
-        // "terminal.ansiBrightMagenta": "#de73ff",
-        // "terminal.ansiBrightRed": "#ff616e",
-        // "terminal.ansiBrightWhite": "#e6e6e6",
-        // "terminal.ansiBrightYellow": "#f0a45d",
-        // "terminal.ansiCyan": "#42b3c2",
-        // "terminal.ansiGreen": "#8cc265",
-        // "terminal.ansiMagenta": "#c162de",
-        // "terminal.ansiRed": "#e05561",
-        // "terminal.ansiWhite": "#d7dae0",
-        // "terminal.ansiYellow": "#d18f52",
-        // "terminal.background": "#23272e",
-        // "terminal.border": "#3e4452",
-        // "terminal.foreground": "#abb2bf",
-        // "terminal.selectionBackground": "#abb2bf30",
+        "terminal.ansiBlack": "#3f4451",
+        "terminal.ansiBlue": "#4aa5f0",
+        "terminal.ansiBrightBlack": "#4f5666",
+        "terminal.ansiBrightBlue": "#4dc4ff",
+        "terminal.ansiBrightCyan": "#4cd1e0",
+        "terminal.ansiBrightGreen": "#a5e075",
+        "terminal.ansiBrightMagenta": "#de73ff",
+        "terminal.ansiBrightRed": "#ff616e",
+        "terminal.ansiBrightWhite": "#e6e6e6",
+        "terminal.ansiBrightYellow": "#f0a45d",
+        "terminal.ansiCyan": "#42b3c2",
+        "terminal.ansiGreen": "#8cc265",
+        "terminal.ansiMagenta": "#c162de",
+        "terminal.ansiRed": "#e05561",
+        "terminal.ansiWhite": "#d7dae0",
+        "terminal.ansiYellow": "#d18f52",
+        "terminal.background": "#23272e",
+        "terminal.border": "#3e4452",
+        "terminal.foreground": "#abb2bf",
+        "terminal.selectionBackground": "#abb2bf30",
         // ======== Debug Colors ========
         // ======== Testing Colors ========
         // ======== Welcome Page Colors ========
