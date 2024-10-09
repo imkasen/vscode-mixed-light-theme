@@ -11,6 +11,14 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "atom",
+    "one light",
+    "light",
+    "solarized",
+    "solarized light"
+  ],
+  "icon": "icon.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/imkasen/vscode-mixed-light-theme"
