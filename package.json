@@ -19,9 +19,14 @@
   "contributes": {
     "themes": [
       {
+        "label": "Mixed One Light",
+        "uiTheme": "vs",
+        "path": "./themes/mixed-one-light-color-theme.json"
+      },
+      {
         "label": "Mixed Solarized Light",
         "uiTheme": "vs",
-        "path": "./themes/mixed-solarized-light.json"
+        "path": "./themes/mixed-solarized-light-color-theme.json"
       }
     ]
   }
