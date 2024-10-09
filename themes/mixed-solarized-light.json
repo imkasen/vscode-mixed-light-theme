@@ -54,7 +54,7 @@
             ],
             "settings": {
                 "foreground": "#009C8F",
-                "fontStyle": "bold"
+                "fontStyle": "italic"
             }
         },
         {
@@ -75,6 +75,17 @@
             ],
             "settings": {
                 "foreground": "#2AA198"
+            }
+        },
+        {
+            "name": "Punctuation Definition Directive C #",
+            "scope": [
+                "punctuation.definition.directive.c",
+                "punctuation.definition.directive.cpp",
+                "punctuation.definition.annotation.java"
+            ],
+            "settings": {
+                "foreground": "#8762C6"
             }
         },
         {
@@ -162,6 +173,16 @@
             }
         },
         {
+            "name": "Python Function Decorator @",
+            "scope": [
+                "meta.function.decorator.python",
+                "punctuation.definition.decorator.python"
+            ],
+            "settings": {
+                "foreground": "#00978A"
+            }
+        },
+        {
             "name": "Special Method, Block Level",
             "scope": [
                 "keyword.other.special-method",
@@ -184,8 +205,8 @@
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "fontStyle": "normal",
-                "foreground": "#859900"
+                // "foreground": "#859900"
+                "foreground": "#489100"
             }
         },
         {
@@ -299,7 +320,7 @@
             "scope": "constant.character.escape",
             "settings": {
                 // "foreground": "#CB4B16"
-                "foreground": "#BC5819",
+                "foreground": "#2AA198",
                 "fontStyle": "bold"
             }
         },
