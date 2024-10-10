@@ -3,7 +3,7 @@
   "displayName": "Mixed Light",
   "description": "A mixed light theme for Visual Studio Code.",
   "publisher": "imkasen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "engines": {
     "vscode": "^1.93.0"
@@ -26,11 +26,6 @@
   "homepage": "https://github.com/imkasen/vscode-mixed-light-theme",
   "contributes": {
     "themes": [
-      {
-        "label": "Mixed One Light",
-        "uiTheme": "vs",
-        "path": "./themes/mixed-one-light-color-theme.json"
-      },
       {
         "label": "Mixed Solarized Light",
         "uiTheme": "vs",

@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## Version 0.1.0
 
 - Initial release
+
+## Version 0.1.1
+
+- Optimize color configurations and packaging

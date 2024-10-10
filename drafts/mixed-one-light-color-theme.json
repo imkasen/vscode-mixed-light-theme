@@ -1,5 +1,5 @@
 {
-    "name": "One Light",
+    "name": "Mixed One Light",
     "type": "light",
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -2063,26 +2063,26 @@
         // ======== Keybinding Label Colors ========
         // ======== Keyboard Shortcut Table Colors ========
         // ======== Integrated Terminal Colors ========
-        "terminal.ansiBlack": "#3f4451",
-        "terminal.ansiBlue": "#4aa5f0",
-        "terminal.ansiBrightBlack": "#4f5666",
-        "terminal.ansiBrightBlue": "#4dc4ff",
-        "terminal.ansiBrightCyan": "#4cd1e0",
-        "terminal.ansiBrightGreen": "#a5e075",
-        "terminal.ansiBrightMagenta": "#de73ff",
-        "terminal.ansiBrightRed": "#ff616e",
-        "terminal.ansiBrightWhite": "#e6e6e6",
-        "terminal.ansiBrightYellow": "#f0a45d",
-        "terminal.ansiCyan": "#42b3c2",
-        "terminal.ansiGreen": "#8cc265",
-        "terminal.ansiMagenta": "#c162de",
-        "terminal.ansiRed": "#e05561",
-        "terminal.ansiWhite": "#d7dae0",
-        "terminal.ansiYellow": "#d18f52",
-        "terminal.background": "#23272e",
-        "terminal.border": "#3e4452",
-        "terminal.foreground": "#abb2bf",
-        "terminal.selectionBackground": "#abb2bf30",
+        "terminal.ansiBlack": "#3F4451",
+        "terminal.ansiBlue": "#4AA5f0",
+        "terminal.ansiBrightBlack": "#4F5666",
+        "terminal.ansiBrightBlue": "#4DC4FF",
+        "terminal.ansiBrightCyan": "#4CD1E0",
+        "terminal.ansiBrightGreen": "#A5E075",
+        "terminal.ansiBrightMagenta": "#DE73FF",
+        "terminal.ansiBrightRed": "#FF616E",
+        "terminal.ansiBrightWhite": "#E6E6E6",
+        "terminal.ansiBrightYellow": "#F0A45D",
+        "terminal.ansiCyan": "#42B3C2",
+        "terminal.ansiGreen": "#8CC265",
+        "terminal.ansiMagenta": "#C162DE",
+        "terminal.ansiRed": "#E05561",
+        "terminal.ansiWhite": "#D7DAE0",
+        "terminal.ansiYellow": "#D18F52",
+        "terminal.background": "#FAFAFA",
+        // "terminal.border": "#3E4452",
+        // "terminal.foreground": "#ABB2BF",
+        "terminal.selectionBackground": "#CECECE",
         // ======== Debug Colors ========
         // ======== Testing Colors ========
         // ======== Welcome Page Colors ========

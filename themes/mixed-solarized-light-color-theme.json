@@ -1023,9 +1023,7 @@
         "editor.selectionBackground": "#00212B40",
         "editor.lineHighlightBackground": "#EEE8D5",
         "editorWhitespace.foreground": "#586E7580",
-        // "editorIndentGuide.background1": "#00000080",
         "editorIndentGuide.background1": "#D5CDB6",
-        // "editorIndentGuide.activeBackground1": "#00212B",
         "editorIndentGuide.activeBackground1": "#909995",
         "editorBracketMatch.border": "#657B83A0",
         "editorBracketHighlight.foreground1": "#825DC0",
@@ -1064,7 +1062,6 @@
         "panel.border": "#DDD6C1",
         // ======== Status Bar Colors ========
         "statusBar.background": "#EEE8D5",
-        // "statusBar.foreground": "#586E75",
         "statusBar.foreground": "#073642",
         "statusBar.debuggingBackground": "#EEE8D5",
         "statusBar.noFolderBackground": "#EEE8D5",
