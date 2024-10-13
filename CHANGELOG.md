@@ -4,10 +4,16 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## Version 0.1.0
+## Version 0.1.2
 
-- Initial release
+- Remove redundant configurations.
+- Mixed-solarized-light theme is python ready.
 
 ## Version 0.1.1
 
-- Optimize color configurations and packaging
+- Optimize color configurations and packaging.
+- Mixed-one-light theme temporarily moved to drafts, optimize mixed-solarized-light theme first.
+
+## Version 0.1.0
+
+- Initial release.
