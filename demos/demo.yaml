@@ -1,0 +1,76 @@
+# This is a YAML file showcasing all syntax elements
+
+## 1. Key-Value Pairs
+key: value
+bare_key: bare value
+quoted_key_with_space: "quoted value with space"
+"127.0.0.1": "IP address as key"
+
+## 2. Strings
+string: This is a string
+literal_string: 'This is a literal string with "quotes" and \backslashes\.'
+multiline_string: |
+  This is a
+  multiline string
+multiline_literal_string: >
+  This is a
+  multiline literal string with "quotes" and \backslashes\.
+
+## 3. Numbers
+integer: 12345
+hex_integer: 0xDEADBEEF
+octal_integer: 0o755
+binary_integer: 0b11010110
+float: 3.14159
+exponent_float: 6.022e23
+
+## 4. Booleans
+boolean_true: true
+boolean_false: false
+
+## 5. Dates and Times
+date: 1979-05-27T07:32:00Z
+local_date: 1979-05-27
+local_time: 07:32:00
+local_datetime: 1979-05-27T07:32:00
+
+## 6. Arrays (Sequences)
+array_of_strings:
+  - apple
+  - banana
+  - cherry
+array_of_integers:
+  - 1
+  - 2
+  - 3
+mixed_array:
+  - 1
+  - hello
+  - 3.14
+nested_array:
+  - - 1
+    - 2
+  - - 3
+    - 4
+
+## 7. Maps (Dictionaries)
+table:
+  key1: value1
+  key2: value2
+  nested_table:
+    key3: value3
+
+## 8. Inline Maps (Flow Style)
+inline_table: { key1: value1, key2: value2 }
+
+## 9. Sequence of Maps
+products:
+  - name: Hammer
+    sku: 738594937
+  - name: Nail
+    sku: 284758393
+    color: gray
+
+## 10. Anchors and Aliases
+anchor_string: &anchor This is an anchored string
+alias_string: *anchor

@@ -56,7 +56,7 @@
             "name": "Operator, Punctuation",
             "scope": [
                 "keyword.operator",
-                "punctuation.definition",
+                "punctuation",
                 "entity.name.function.operator", // e.g. '<<' in cpp
                 "constant.other.color", // e.g. '#f0f0f0' in css
             ],
@@ -109,7 +109,7 @@
         {
             "name": "Variable Language",
             "scope": [
-                "variable.language" // e.g. 'java.util.*' in java
+                "variable.language" // e.g. '*' of 'java.util.*' in java
             ],
             "settings": {
                 "foreground": "#DC322F"
@@ -145,8 +145,8 @@
         {
             "name": "Number, Constant",
             "scope": [
-                "constant.numeric",
-                "constant.language",
+                "constant",
+                "variable.other.constant", // constant variable
                 "support.constant", // e.g. 'sans-serif' in css
             ],
             "settings": {
@@ -268,7 +268,6 @@
                 "foreground": "#53676D"
             }
         },
-
         {
             "name": "Markdown Heading Text",
             "scope": [
@@ -324,12 +323,39 @@
             }
         },
         {
+            "name": "Markdown Link",
+            "scope": [
+                "markup.underline"
+            ],
+            "settings": {
+                "foreground": "#489100",
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Markdown Bold",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Italics",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
             "name": "Markdown Code Block Language Tag", // e.g. '``` js'
             "scope": [
                 "fenced_code.block.language.markdown"
             ],
             "settings": {
-                "foreground": "#CF4B56",
                 "fontStyle": "bold"
             }
         },
@@ -360,6 +386,34 @@
             "settings": {
                 "foreground": "#93A1A1",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "INI Title",
+            "scope": [
+                "entity.name.section.group-title.ini"
+            ],
+            "settings": {
+                "foreground": "#489100",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Value in INI",
+            "scope": [
+                "source.ini"
+            ],
+            "settings": {
+                "foreground": "#53676D",
+            }
+        },
+        {
+            "name": "Value in Ignore",
+            "scope": [
+                "source.ignore"
+            ],
+            "settings": {
+                "foreground": "#53676D",
             }
         },
     ],
@@ -482,23 +536,24 @@
         // ======== Keyboard Shortcut Table Colors ========
         // ======== Integrated Terminal Colors ========
         "terminal.background": "#FDF6E3",
-        "terminal.ansiBlack": "#073642",
-        "terminal.ansiBlue": "#268BD2",
-        "terminal.ansiBrightBlack": "#586E75",
-        "terminal.ansiBrightBlue": "#839496",
-        "terminal.ansiBrightCyan": "#93A1A1",
-        "terminal.ansiBrightGreen": "#586E75",
-        "terminal.ansiBrightMagenta": "#6C71C4",
-        "terminal.ansiBrightRed": "#CB4B16",
-        "terminal.ansiBrightWhite": "#EEE8D5",
-        "terminal.ansiBrightYellow": "#657B83",
-        "terminal.ansiCyan": "#2AA198",
-        "terminal.ansiGreen": "#859900",
-        "terminal.ansiMagenta": "#D33682",
-        "terminal.ansiRed": "#DC322F",
-        "terminal.ansiWhite": "#EEE8D5",
-        "terminal.ansiYellow": "#B58900",
+        "terminal.foreground": "#53676D",
         "terminal.selectionBackground": "#DDD6C1",
+        "terminal.ansiBlack": "#073642",
+        "terminal.ansiBrightBlack": "#586e75",
+        "terminal.ansiBlue": "#006DCE",
+        "terminal.ansiBrightBlue": "#268BD2",
+        "terminal.ansiCyan": "#00978A",
+        "terminal.ansiBrightCyan": "#2AA198",
+        "terminal.ansiGreen": "#428B00",
+        "terminal.ansiBrightGreen": "#859900",
+        "terminal.ansiMagenta": "#C44392",
+        "terminal.ansiBrightMagenta": "#D33682",
+        "terminal.ansiRed": "#CC1729",
+        "terminal.ansiBrightRed": "#DC322F",
+        "terminal.ansiWhite": "#EEE8D5",
+        "terminal.ansiBrightWhite": "#FBF3DB",
+        "terminal.ansiYellow": "#A78300",
+        "terminal.ansiBrightYellow": "#B58900",
         // ======== Debug Colors ========
         "debugToolBar.background": "#DDD6C1",
         // ======== Testing Colors ========

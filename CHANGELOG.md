@@ -4,6 +4,11 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Version 0.1.3
+
+- Add demo code of INI, TOML and YAML.
+- Update mixed-solarized-light to support markdown and INI, adjust terminal color.
+
 ## Version 0.1.2
 
 - Remove redundant configurations.
