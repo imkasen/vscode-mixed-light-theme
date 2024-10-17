@@ -2,6 +2,7 @@
 .vscode-test/**
 demos/**
 drafts/**
+images/**
 templates/**
 
 *.vsix

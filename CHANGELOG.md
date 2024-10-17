@@ -4,6 +4,11 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Version 0.1.4
+
+- Add `editorLink.activeForeground` color.
+- Add a screenshot of mixed-solarized-light color theme.
+
 ## Version 0.1.3
 
 - Add demo code of INI, TOML and YAML.
