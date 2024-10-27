@@ -353,7 +353,7 @@
         {
             "name": "Markdown Code Block Language Tag", // e.g. '``` js'
             "scope": [
-                "fenced_code.block.language.markdown"
+                "fenced_code.block.language"
             ],
             "settings": {
                 "fontStyle": "bold"
