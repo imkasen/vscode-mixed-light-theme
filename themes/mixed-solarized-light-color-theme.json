@@ -416,6 +416,72 @@
                 "foreground": "#53676D",
             }
         },
+        {
+            "name": "Makefile",
+            "scope": [
+                "source.makefile"
+            ],
+            "settings": {
+                "foreground": "#CB4B16",
+            }
+        },
+        {
+            "name": "CMake",
+            "scope": [
+                "source.cmake"
+            ],
+            "settings": {
+                "foreground": "#CB4B16",
+            }
+        },
+        {
+            "name": "Nginx Text",
+            "scope": [
+                "meta.context.http.nginx",
+                "source.nginx"
+            ],
+            "settings": {
+                "foreground": "#53676D"
+            }
+        },
+        {
+            "name": "Nginx Link",
+            "scope": [
+                "entity.name.context.location.nginx",
+                "string.regexp.nginx"
+            ],
+            "settings": {
+                "foreground": "#268BD2",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Nginx Path",
+            "scope": [
+                "meta.context.server.nginx"
+            ],
+            "settings": {
+                "foreground": "#489100",
+            }
+        },
+        {
+            "name": "Dockerfile",
+            "scope": [
+                "source.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#CB4B16",
+            }
+        },
+        {
+            "name": "SQL",
+            "scope": [
+                "source.sql"
+            ],
+            "settings": {
+                "foreground": "#53676D",
+            }
+        }
     ],
     "colors": {
         // ref: https://code.visualstudio.com/api/references/theme-color
