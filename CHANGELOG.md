@@ -4,6 +4,10 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Version 0.2.1
+
+- Delete italic font style when link title is quoted in markdown.
+
 ## Version 0.2.0
 
 - Add basic support for CMakeLists.txt, Makefile, Dockerfile, nginx configuration and sql file.

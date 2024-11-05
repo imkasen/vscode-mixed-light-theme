@@ -310,7 +310,8 @@
                 "string.other.link.title.markdown"
             ],
             "settings": {
-                "foreground": "#268BD2"
+                "foreground": "#268BD2",
+                "fontStyle": ""
             }
         },
         {
