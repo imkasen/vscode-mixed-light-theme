@@ -4,7 +4,11 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## Version 0.22
+## Version 0.2.3
+
+- Add support for Svelte file.
+
+## Version 0.2.2
 
 - Change the icon.
 

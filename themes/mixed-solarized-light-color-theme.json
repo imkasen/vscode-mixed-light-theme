@@ -254,7 +254,10 @@
         },
         {
             "name": "Attributes in HTML CSS",
-            "scope": "entity.other.attribute-name",
+            "scope": [
+                "entity.other.attribute-name",
+                "meta.selector"
+            ],
             "settings": {
                 "foreground": "#6C71C4"
             }
@@ -263,6 +266,7 @@
             "name": "Text in HTML",
             "scope": [
                 "text.html.derivative", // e.g. texts in elements
+                "text.svelte"
             ],
             "settings": {
                 "foreground": "#53676D"
