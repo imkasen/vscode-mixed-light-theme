@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <database>
+        <name>example_db</name>
+        <host>localhost</host>
+        <port>3306</port>
+        <username>root</username>
+        <password>password123</password>
+        <max_connections>20</max_connections>
+        <timeout>30</timeout>
+    </database>
+
+    <logging>
+        <level>info</level>
+        <file_path>/var/log/example_app.log</file_path>
+        <max_file_size>10MB</max_file_size>
+        <retention_days>30</retention_days>
+    </logging>
+
+    <features>
+        <feature name="auto_update" enabled="true" />
+        <feature name="notifications" enabled="false" />
+        <feature name="analytics" enabled="true" />
+    </features>
+</configuration>

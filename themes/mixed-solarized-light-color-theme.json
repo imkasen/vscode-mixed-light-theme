@@ -404,6 +404,15 @@
             }
         },
         {
+            "name": "Text in XML",
+            "scope": [
+                "text.xml"
+            ],
+            "settings": {
+                "foreground": "#53676D",
+            }
+        },
+        {
             "name": "Value in INI",
             "scope": [
                 "source.ini"
