@@ -3,7 +3,7 @@
   "displayName": "Mixed Light",
   "description": "A mixed light theme for Visual Studio Code.",
   "publisher": "imkasen",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "license": "MIT",
   "engines": {
     "vscode": "^1.93.0"

@@ -148,6 +148,7 @@
                 "constant",
                 "variable.other.constant", // constant variable
                 "support.constant", // e.g. 'sans-serif' in css
+                "meta.property-value.css"
             ],
             "settings": {
                 "foreground": "#CB4B16"
