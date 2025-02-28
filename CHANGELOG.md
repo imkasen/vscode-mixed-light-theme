@@ -4,6 +4,11 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Version 0.3.0
+
+- Add support for jsx and tsx.
+- Add configuration of GitHub Action.
+
 ## Version 0.2.5
 
 - Update support for css.

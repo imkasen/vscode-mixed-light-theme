@@ -267,7 +267,8 @@
             "name": "Text in HTML",
             "scope": [
                 "text.html.derivative", // e.g. texts in elements
-                "text.svelte"
+                "text.svelte",
+                "meta.jsx"
             ],
             "settings": {
                 "foreground": "#53676D"
