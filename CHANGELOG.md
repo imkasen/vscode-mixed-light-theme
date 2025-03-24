@@ -4,6 +4,10 @@ All notable changes to the extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## Version 0.4.0
+
+- Use a lighter selection background color.
+
 ## Version 0.3.1
 
 - Remove unsupported function in GitHub Action configuration file.
